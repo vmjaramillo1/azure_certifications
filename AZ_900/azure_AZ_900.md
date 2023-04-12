@@ -99,4 +99,38 @@ El certificado se optinee al completal el 100% de totas las clases
 
 ## 2.Contenido del curso
 
+**Sobre el examen**
 Se recomiendo q en los examentes de text loguemos un 80 %
+
+![image](https://user-images.githubusercontent.com/6383659/231333219-bf15d773-4d5d-4188-a03d-d3ad27f86ca0.png)
+
+**Skils**
+
+Se cumbren:
+
+- Conpecto basicos de azzure y cloud
+- Servicios de azure
+- Herramientas (DB, IoT, IA)
+- Seguridad
+- Gobernanza
+- Costes
+
+![image](https://user-images.githubusercontent.com/6383659/231335647-51cff38d-7c38-453c-b3cc-28abe735ab61.png)
+
+
+
+**Tipos de preguntas**
+
+![image](https://user-images.githubusercontent.com/6383659/231337694-56721cc4-b41f-4b8b-a32d-1f067ac4acd1.png)
+
+
+**Formas de certificacion**
+
+- Presencial: similares al de remoto
+- Remoto: necesario DNI, dejas basio el escritorio (sin segunda pantalla), q no entre nadie a la avitacion, pasar el control de acceso (control de programas), fotos del escritorio, no hablar durante certificacion
+
+**Obtener la certificacion**
+
+Se debe registrar en sitio web de microsoft
+
+
