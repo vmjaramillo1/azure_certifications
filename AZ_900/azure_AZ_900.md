@@ -71,8 +71,32 @@ El curso no tiene requisitos previos para ser aprobado y se encuentra dirigido a
 
 **Acceso a material y certificado**
 
+El material se puede conseguir desde la plataforma, sin embargo tamb esta dentro del proyecto, en el siguiente [link](https://github.com/vmjaramillo1/azure_certifications/blob/main/AZ_900/materiales/Presentacion_Curso_AZ-900.pdf)
+
+El certificado se optinee al completal el 100% de totas las clases
+
 **Mejores practicas para aprender**
+
+- Tomar notas y repasar
+- Generar resumenes
+- Repazar clases antes de empezar una nueva clase
+- Practicar los diferentes temas y efectuar los ejecicios
+- Efecutar retos personales
+- Buscar material adicional y ampliar le curso
 
 **Consultas**
 
+- Revisar la clase ante alguana duda
+- revizar apartado de preguntas y respuestas
+- Buscar en Foros
+
+
 **Descuentos**
+
+- Descuentos peridicos
+- revizar linkendin con descunetos
+
+
+## 2.Contenido del curso
+
+Se recomiendo q en los examentes de text loguemos un 80 %
