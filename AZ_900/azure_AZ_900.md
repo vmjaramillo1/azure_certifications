@@ -133,4 +133,52 @@ Se cumbren:
 
 Se debe registrar en sitio web de microsoft
 
+## 3 Introducion a Azure fundamentals
+
+**Azure**
+
+Azure es el conjunto de servicios de computacion en nube ofrecidos por microsof.
+En azure se arquila recursos y se paga por lo q se usa
+Azure ofrece mas de 100 servicio diferntes entre Maquitas virtuales, almacenamiento, IA, etc.
+
+Los servicio de azure se clasifican segun tipo, algunos de ellos son:
+
+
+
+Compute: Computadoras virtuales/cntenedores de kubernetes
+
+Storage: Almacenamiento de archivos 
+  Blob: para archivos binarios
+  Quetes: colas de datos
+  Files:  para archivos
+  Disck: de espacio en disco
+
+Networking: Todo lo relacionado a como se conecta uno a los servicio de azure, balanceadores de carga, ruteo, VPN Gatewaay, app Gateway
+
+Application plataform: Para creacion de servicios de aplicaciones (API), escalado automatico, notificaciones, servicios de aplicaciones HTPL, etc
+
+Analitics y IoT: Todo lo relacionado a hadware conectado a nube, tamb servicios de presentacion tipo Power Bi
+
+Data: servicios de base de datos SQL, SQL server, dataWareHouse, cosmos DB, etc
+
+Intelligence: servicios para IA, bot chats y servicios cognitivos, temas de Azure ML
+
+Seguridad: seguridad apra azure y desarrollos paralelos
+
+Computacion hibrida: para servicios hom premis y cloud
+
+
+![image](https://user-images.githubusercontent.com/6383659/233551308-91be0f43-915f-4509-b5ca-6d145abd7425.png)
+
+
+
+** Cuentas **
+
+Tipos de cuentas
+
+ De pago
+ Gratuita
+ De estudiante gratuita
+ 
+ ![image](https://user-images.githubusercontent.com/6383659/233551490-d5c40df2-7088-43c7-af85-4124ab167d8c.png)
 
