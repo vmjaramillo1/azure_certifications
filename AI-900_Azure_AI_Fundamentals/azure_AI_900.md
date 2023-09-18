@@ -30,3 +30,4 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 
 ## 1 Introduccion a la inteligencia artificial
 
+[Recruso](https://learn.microsoft.com/es-es/training/paths/get-started-with-artificial-intelligence-on-azure/)
