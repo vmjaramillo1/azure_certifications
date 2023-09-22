@@ -14,11 +14,9 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 
 [Video curso preparatorio](https://www.youtube.com/watch?v=6DQvItqEKfI&list=PL3hNLk-aR0J97QHh7uZfafnUxIdQS5nSD&index=5)
 
-
-
 ### Temario
 
-1. Introduccion a la inteligencia artificial
+1. [Introduccion a la inteligencia artificial](#into)
 2. Exploracoin de las herramientas visuales para el prendizaje automatico
 3. Exploracion de la vision informatica
 4. Exploracion del procesamiento de lenguaje natural
@@ -28,6 +26,103 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 
 
 
-## 1 Introduccion a la inteligencia artificial
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+fgfg
+
+
+
+
+
+
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+
+fgfg
+
+gfgfgfgf
+
+fgfg
+
+gfgfgfgf
+
+fgfg
+
+gfgfgfgf
+fgfg
+
+gfgfgfgf
+
+fgfg
+
+gfgfgfgf
+fgfg
+gfgfgfgf
+
+fgfg
+
+
+
+
+
+gfgfgfgf
+fgfg
+
+
+## 1 Introduccion a la inteligencia artificial <a name="into"></a>
 
 [Recruso](https://learn.microsoft.com/es-es/training/paths/get-started-with-artificial-intelligence-on-azure/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
