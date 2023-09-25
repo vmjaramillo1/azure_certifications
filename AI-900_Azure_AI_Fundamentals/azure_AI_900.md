@@ -61,7 +61,7 @@ El ciclo para el ML es el siguiente
 
 **Aprendizaje automatico en azure**
 
-Azure posee **Azure MAchine Learning** q es una plataforma basada en nube para crear, gestionar y publicar modelos de ML. 
+Azure posee **Azure Machine Learning** q es una plataforma basada en nube para crear, gestionar y publicar modelos de ML. 
 
 Sus funcionalidades son: 
 
@@ -74,13 +74,55 @@ Sus funcionalidades son:
 | Canalizadores (Pipe)| Son Pipes para crear tareas de entrenamiento, implementacion o adminostracion de modelos |
 
 
+**Deteccion de anomaias**
+
+Es una tecnica basada en el aprendizaje atumatco que analiza los datos en el tiempo he identifica fluctuaciones o cambios inusuales
+
+**Deteccion de anomalias en Azure**
+
+Dentro de Azure exite el servicio de deteccion de anomalias mediante la diponibilizacion de una API
+
+**Vision por computador (vision informatica)**
+
+Es un area de la IA q se encarga del procesamiento de imagenes para resolver siferntes problemas tales como
 
 
+|Tarea|Descripcion|
+|-----|-----------|
+|Clasificacion de imagenes| Se encaga de identificr y clasificar objetos provenienes de imagenes o videos, etiquetando (nombrando) segun la clase a la q pertencen|
+|Deteccion de objetos (identificacion)| Se encarga de identificar lso diferntes objetos en una imagen segun lo q son (aqui se trabaja con multiples identificaciones)|
+|Segmentacion semantica| meditne mapas de segmentacion se identifica(clasifica) los pixles corrspondiente a un objeto, (clasificacion de pixeles) permitiendo deliminar diferentes objetos dentro de una imagen|
+|Analisis de imagenes| consite en obtener una decripcion detalla de la imagen a partir de la infomacion obetenia (etiquetas) de las mismas (es como describir la imagen)|
+|Detección, análisis y reconocimiento de caras| Consiste en identificar y nalalizar rostros de las personas con la finalidad de reonocer infivuos a partir de sus rasgos faciales|
+|Reconocimiento óptico de caracteres (OCR)| Basicamente extraer caracteristicas de una imgen para recuperar el texto|
+
+**Vision por computador en Azure**
+
+En azure se ofrece los siguientes servicios:
+
+- *Vision de Azure IA:* Sistema para analisar imagenes o video y extraer etiquetas, descripciones, texto y objetos
+- *Azure IA custom Vision:* Servicio para entrenar tus propios modelos de analisis de imagenes y deteccion de objetos (con tus propias imagenes)
+- *Azure IA Fase:* Deteccion de caras y personas
+- *Inteligencia de documentos de azure IA:* Basicamente es un OCR
 
 
+**Procesmaiento de lenguaje Natural (PLN)**
 
+Area de la IA encargada de analizar el lengaje tanto hablado como escrito entenderlo dar dignificado y actuar en consecencia.
 
+Las tareas de esta area destacan: 
 
+- Analizar he interpretar texto
+- Interpretar lenguaje hablado y responder en concecuencia
+- Traducion automatica de fraces habladas o escritas
+- Interpretacion de comandos y terminacion de acciones apropiadas
+
+**Servicios de Azure con PLN**
+
+- *Lenguaje de Azure:* Servicio para comporende y analizar texto, entrenar modeos para comprender comandos hablados o escritos y actuar en conecuencia
+- *Traducto de Azure IA:* Traductor de texto a mas de 60 idiomas
+- *Voz de Azure:* reconocer, sintetizar y traducir mensaje de voz
+- *Bot de Azure:* brinda acceso a una plataforma de IA conversacional, para gestionar un "agente"convercinal (te da back para generar un bot) y este actue en consecuencia (se conecta a canel web)
 
 
 
