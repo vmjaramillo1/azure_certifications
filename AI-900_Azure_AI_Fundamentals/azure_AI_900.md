@@ -74,7 +74,7 @@ Sus funcionalidades son:
 | Canalizadores (Pipe)| Son Pipes para crear tareas de entrenamiento, implementacion o adminostracion de modelos |
 
 
-**Deteccion de anomaias**
+### Deteccion de anomaias
 
 Es una tecnica basada en el aprendizaje atumatco que analiza los datos en el tiempo he identifica fluctuaciones o cambios inusuales
 
@@ -82,10 +82,9 @@ Es una tecnica basada en el aprendizaje atumatco que analiza los datos en el tie
 
 Dentro de Azure exite el servicio de deteccion de anomalias mediante la diponibilizacion de una API
 
-**Vision por computador (vision informatica)**
+### Vision por computador (vision informatica)
 
 Es un area de la IA q se encarga del procesamiento de imagenes para resolver siferntes problemas tales como
-
 
 |Tarea|Descripcion|
 |-----|-----------|
@@ -105,8 +104,7 @@ En azure se ofrece los siguientes servicios:
 - *Azure IA Fase:* Deteccion de caras y personas
 - *Inteligencia de documentos de azure IA:* Basicamente es un OCR
 
-
-**Procesmaiento de lenguaje Natural (PLN)**
+## Procesmaiento de lenguaje Natural (PLN)
 
 Area de la IA encargada de analizar el lengaje tanto hablado como escrito entenderlo dar dignificado y actuar en consecencia.
 
@@ -124,10 +122,50 @@ Las tareas de esta area destacan:
 - *Voz de Azure:* reconocer, sintetizar y traducir mensaje de voz
 - *Bot de Azure:* brinda acceso a una plataforma de IA conversacional, para gestionar un "agente"convercinal (te da back para generar un bot) y este actue en consecuencia (se conecta a canel web)
 
+## Mineria del conocimiento
+
+Describe el area de la IA que se encarga de la extraccion de informacion de grandes volumenes de datos no estructurados para crear un **almacen de conocimiento indexado** (como un indice en un libro para bucar cosas)
+
+**Minieria de concimiento en Azure**
+
+- *Azure cognitive search:* servicio que permite crear indices de conocimiento (estos se pueden usar internamiente o en busquedas de recursos en internet y de acceso publico)
+
+**Nota:** est servicio hace uso de los demas servicios de azure para obtener informacion de documentos y mejorar las busquedas como antes no era posible (utiliza vision por computatos, PLN, anmalias, etc)
+
+
+## Desafios y riesgos de la IA
+
+|Desafio|descripcion|
+|-------|-----------|
+|Segos en el entrenamiento|Entrenar con datos segados puede causar aplicaciones con resultados segados, engañosos, poco fiables y hasta equivocados|
+|Errores que causan daños| si un modelo que forma parte de un sitema critico o medico falla puede causar daños no solo fiscos si no tamb a la salud de los pasientes|
+|Filtracion de dados| los modelos tienen problema para saber q informacion es sencible o prohibida y podrian terminar filtrando datos sencibles de una empresa o persona|
+|Quien es el resposable de las decisiones| En caso que los modelos fallen y causen daños a una persona o la muerte de alguien, quien es el responsable?|
+|LAs soluciones no funcionan para todos| Relacionado con el sesgo del punto un, puede ser q un modelo no funcione para todos los usuarios, siendo una solucion no solo incompleta si no tamb causar daños a las personas si es un sistema critico como un sitema para invidentes|
+|Hacer que las personas confien en la IA| Si un sistema de IA toma deciciones criticas como es q lo hacen ?|
+
+
+## Inteligencia Artifical responsable
+
+Principios de una IA desponsable de Azure:
+
+### Imparcialidad
+
+- Tratar a todos de manera equitativa, sin segos, ni discriminacion alguna.
+- Sin dar ventaja o desventaja injusta a nadie
+- En una sociddad injusta, los sistemas deben reducir la injusticia
+- La IA pued ser mal utilizada en crimenes, denigracion cultural, afianzar estereoritpos, etc, **eso se debe evitar**
+- Evitar y afrontar la *sobre representacion* y la *infra representacion*
+
+
+La imparcialdiad no es un problema de un sistema, **ES UN PROBLEMA SOCIAL** y un desafio **SOCIO TECNICO**
+
+
+**Azure Machine Learning** brinda la capacidad de interpretar modelos y medirlos pasa saber cmo influye cada caracteristica de los datos en el modelo para mitigar dispariedades y sesgos
 
 
 
-
+### 
 
 
 
