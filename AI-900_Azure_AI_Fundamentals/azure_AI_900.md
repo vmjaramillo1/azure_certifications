@@ -17,16 +17,15 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 ### Temario
 
 1. [Introduccion a la inteligencia artificial](#into)
-2. Exploracoin de las herramientas visuales para el prendizaje automatico
+2. [Fundamentos de Machine learning](#machineLearning)
 3. Exploracion de la vision informatica
 4. Exploracion del procesamiento de lenguaje natural
 5. Exploracion de la ayuda para la toma de decisiones
 6. Exploracion de la mineria de conocimientos
 
-
 ## 1 Introduccion a la inteligencia artificial <a name="into"></a>
 
-[Recruso](https://learn.microsoft.com/es-es/training/paths/get-started-with-artificial-intelligence-on-azure/)
+[Recurso](https://learn.microsoft.com/es-es/training/paths/get-started-with-artificial-intelligence-on-azure/)
 
 
 ### ¿Qué es la inteligencia artificial?
@@ -40,8 +39,6 @@ Cargas de trabajo:
 - **Vision informatica:**: (vision por computador) capacidad del software de interpresar el mundo por camaras, video e imagenes.
 - **Prosesamiento de lenguaje natural**: (PLN) capacidad para intepresar lenguaje escrito o hablado y responder
 - **Mineria de conocimiento**: Capacidad para extraer informacion **util** de grandes volumenes de datos (no exrtucturados) para crear almacen de conocimiento
-
-
 
 ### Aprendizaje automatico
 
@@ -72,7 +69,6 @@ Sus funcionalidades son:
 | Diseñador de Azure Machine Learning | Interfaz grafica para desarrollar soluciones de AP sin codificar |
 | Administracion de datos y procesos | Almacen de datos y recursos de computa para ejecutar experimento de datos a escala (compu laboratorio) |
 | Canalizadores (Pipe)| Son Pipes para crear tareas de entrenamiento, implementacion o adminostracion de modelos |
-
 
 ### Deteccion de anomaias
 
@@ -206,10 +202,20 @@ Tener resposansabilidad en cada fase del desarrollo
 **DEBEMOS SER RESPONSABLES DE COMO LA IA IMPACTA LA MUNDO**
 
 
+## 2 Fundamentos de Machine learning <a name="machineLearning"></a>
+
+[Recurso](https://learn.microsoft.com/es-es/training/modules/fundamentals-machine-learning/)
 
 
+### Introduccion 
 
+El objetivo es usar datos para crear modelos predictivos q se puedan incorporar en aplicacion
 
+El ML (Machine learning) es la union de 2 diciplinas:
+
+- ***Ciencia de datos:*** Explora el modelo, prepara los datos u entrena el modelo
+
+- ***Ingenieria de software:*** Incorpora el modelo en una aplicacion para q sea usado
 
 
 
