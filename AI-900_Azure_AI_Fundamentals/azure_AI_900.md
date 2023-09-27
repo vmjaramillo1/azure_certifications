@@ -149,7 +149,7 @@ Describe el area de la IA que se encarga de la extraccion de informacion de gran
 
 Principios de una IA desponsable de Azure:
 
-### Imparcialidad
+### 1. Imparcialidad
 
 - Tratar a todos de manera equitativa, sin segos, ni discriminacion alguna.
 - Sin dar ventaja o desventaja injusta a nadie
@@ -160,12 +160,55 @@ Principios de una IA desponsable de Azure:
 
 La imparcialdiad no es un problema de un sistema, **ES UN PROBLEMA SOCIAL** y un desafio **SOCIO TECNICO**
 
-
 **Azure Machine Learning** brinda la capacidad de interpretar modelos y medirlos pasa saber cmo influye cada caracteristica de los datos en el modelo para mitigar dispariedades y sesgos
 
+### 2. Confiabilidad y seguridad
+
+Los modelos y el software (en general) debe ser seguro -> en especial si se aplican en entornos criticos como hoptales o coches autonomos
+
+Deben ser testeados para ser seguros y confiables -> asi no causen daño en el mundo (autos q atropellan personas)
+
+Los pequeños errores se acumlan y mas si afectan a conjuntos grandes de usuarios
+
+### Privacidad y seguidad
+
+Sistemas de IA deben ser seguros y respetar privacidad de datos
+
+El problema radica q los modelos se entrenan con grandes cantidades de datos (en los q puede haber informacion privada)
+
+Esto puede causar riegos de dibulgacion de informacion
+
+Se debe tener cuidado con los datos usados y evitar poner en riesgo la privacidad o dibulgacion de datos
+
+### Inclucion
+
+Modelos q incluiyan a todos, sin discriinar por ningun aspecto
+(ya sea dicapacidad, cultura, credo, religion, color de piel, genero, etc)
+
+Respetar a las comunidades sin ignorar miorias
+
+**EXOERIENCIAS DE IA PARA TODOS**
+
+### Transparencia
+
+Los usuarios deben saber el proposito, funcionamiento y limites del sistema
+
+Asi se genera confianza de los usuarios
+
+### Resonsabilidad
+
+Debemos ser responsables de las soluciones de IA
+
+Garantizar que la IA sea etica y legal
+
+Tener resposansabilidad en cada fase del desarrollo
+
+**DEBEMOS SER RESPONSABLES DE COMO LA IA IMPACTA LA MUNDO**
 
 
-### 
+
+
+
 
 
 
