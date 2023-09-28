@@ -218,6 +218,35 @@ El ML (Machine learning) es la union de 2 diciplinas:
 - ***Ingenieria de software:*** Incorpora el modelo en una aplicacion para q sea usado
 
 
+### Que es el aprendizaje automatico ?
+
+- Se origina de la estadistica y los modelos matematicos
+- Objetivo -> usar datos hitoricos para **predecir valores o resultados** 
+
+
+un modelo de apredizaje automatico -> es un funcion
+
+- f(x)=y
+
+donde datos los valores de X (x es la **obervacion**)
+
+Las observaciones tiene una/varias caracteristicas
+
+x lo tanto X -> es un vector de caracteristias ejm
+
+obsevacion persona= [peso, edad, genero, etc]
+el atributo que se queire descrubir de la observacion se llama **etiqueta**
+
+
+un modelo de Apredizaje automatico => funcion que toma entradas y produce salidas (la salida es la etiqueta obtenidapor **inferncia** q es obtener concluciones a partir de premisas)
+
+Entrenar -> proceso de definir o descubrir la f(x) o funcion adecuada q nos obtenga el el resultado o valor *y* buscado
+
+
+IMAGEN
+
+
+el modelo es la **encapsulacion de la funcion** f(x) que dada una observacion (conjunto de atributos) nos permite caluclar la etiqueta (valor a descubir) obtenido por inferencia
 
 
 
