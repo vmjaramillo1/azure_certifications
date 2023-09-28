@@ -250,9 +250,11 @@ Entrenar -> proceso de definir o descubrir la f(x) o funcion adecuada q nos obte
 
 El modelo es la **encapsulacion de la funcion** f(x) que dada una observacion (conjunto de atributos) nos permite caluclar la etiqueta (valor a descubir) obtenido por inferencia
 
+## Tipos de aprendizaje automatico
 
 
 
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/75e17f43-88b5-4622-af1b-f341233cd49e)
 
 
 
