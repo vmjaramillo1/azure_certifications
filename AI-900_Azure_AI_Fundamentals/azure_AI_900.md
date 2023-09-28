@@ -145,6 +145,8 @@ Describe el area de la IA que se encarga de la extraccion de informacion de gran
 
 Principios de una IA desponsable de Azure:
 
+![Captura de pantalla 2023-09-25 221859](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/59cf5e57-45fb-4424-86a8-f5c5b395700e)
+
 ### 1. Imparcialidad
 
 - Tratar a todos de manera equitativa, sin segos, ni discriminacion alguna.
@@ -235,18 +237,18 @@ Las observaciones tiene una/varias caracteristicas
 x lo tanto X -> es un vector de caracteristias ejm
 
 obsevacion persona= [peso, edad, genero, etc]
-el atributo que se queire descrubir de la observacion se llama **etiqueta**
+El atributo que se queire descrubir de la observacion se llama **etiqueta**
 
 
-un modelo de Apredizaje automatico => funcion que toma entradas y produce salidas (la salida es la etiqueta obtenidapor **inferncia** q es obtener concluciones a partir de premisas)
+Un modelo de Apredizaje automatico => funcion que toma entradas y produce salidas (la salida es la etiqueta obtenidapor **inferncia** q Es obtener concluciones a partir de premisas)
 
 Entrenar -> proceso de definir o descubrir la f(x) o funcion adecuada q nos obtenga el el resultado o valor *y* buscado
 
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/4507331c-fdc9-4f9d-ab0a-5fed836f3414)
 
-IMAGEN
 
 
-el modelo es la **encapsulacion de la funcion** f(x) que dada una observacion (conjunto de atributos) nos permite caluclar la etiqueta (valor a descubir) obtenido por inferencia
+El modelo es la **encapsulacion de la funcion** f(x) que dada una observacion (conjunto de atributos) nos permite caluclar la etiqueta (valor a descubir) obtenido por inferencia
 
 
 
