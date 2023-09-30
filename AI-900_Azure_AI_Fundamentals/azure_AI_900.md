@@ -256,6 +256,90 @@ El modelo es la **encapsulacion de la funcion** f(x) que dada una observacion (c
 
 ![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/75e17f43-88b5-4622-af1b-f341233cd49e)
 
+Se debe usar el mejor modelo para cada ocacion:
+
+**Aprendizaje Supervisado**: En los datos de entrenamiento se incluye la variable a predecir
+
+- **Regresion:** El valor predicho es numerico
+- **Clasificacion:** El valor a predecir es una categria o clase (y poe lo regular suelen ser mutuamente expluyentes):
+	- **Binaria:** determina si el elemento observado pertenece o no a una clase
+	- **Multiclase:** predice la etiqueta que representa a una observacion de entre varias clase
+
+**Aprendizaje no supervizado**: En los datos de entrenamiento no constan los calores a predecir (etiqueta)
+
+Se intent descubir patrones para determinar conjuntos/grupos
+
+Los grupos se determinan por la relacion entre las caracteristicas de las observacines
+
+- **Agrupacion de closters**: Es la mas comun, agrupa observacines egun caracteristicas
+
+## Regresion
+
+Se entrenan para predecir etiquetas numericas,basandoe en datos de entrenamiento (hitoricos) que poseen caracteristics y las etiquetas correspondientes
+
+El proceso de entrenamiento de este (y de todos) los modelos es el siguiente:
+
+1. Recopilar datos y dividilos en Train-Test
+2. Usar los datos para entrenar el modelo
+3. Usar los datos de test para validar el modelos y su resultado (se efectuan prediciones sobre los datos de test)
+4. Se comparan resultados, obtienen metricas y en caso de ser necesario ajuste los parametros del modelo y repita el procesos
+
+
+### Metricas de evaluacion
+
+**Error medio absoluto (MAE) (Mean absolute Error)**
+Indica la varianza entre valores predichos y reales, (sin importar si ka varianza es positiva +, o negativa -, se concidera el absoluto y se calcula el valor promedio)
+
+Ejm  Valor predicho 3; valor real 4 -> varianza 1
+
+NOTA: esta metrica valora de igual forma si las fallas son grandes o pequeñas, pues al sacar un promedio podria darse:
+
+- Error 1 -> 0
+- Error 2 -> 10
+- MAE -> 5
+
+Con esta metrica esperamos tener modelos que se equivoquen poco, pero podria darse que el error cuando se de sea mas grande
+
+**Error cuadrado medio (MSE) (Mean square Error)**
+
+Esta opcion soluciona el problema del MAE, buscando que el modelo se equivo sistematicamente pero por muy poco, en lugar de tener solo algunos errores pero muy grandes.
+
+Esto se logra ampliciando los errores grandes,elevando al cuadrado los valores para sean mas notorios
+
+
+Ejm  
+
+valores de error: 1,2,3
+
+valor MSE: (1,4,9) => 4.6
+
+
+Nota: con esta metrica se tiene en cuenta la magnitud de los errores, pero ya no se cuenta con informacion de la precion del modelo, es decir 
+
+si yo quiero predecir helados vendidos, cuantos helados + o - estoy predicneod mal? 
+
+el MSE solo mide la magintud de los errores
+
+**Raiz del error cuadrado medio (RMSE) (Root mean square error)**
+
+Esta metrica solventa el error del MSE, al ejecutar la raiz a la operacion podemos saber la preccion del modelos en terminos de datos predichos, siendo asi q:
+
+
+el RMSE permite medir en terminos de la observacion cual es el error
+
+Ejem MSE => 4.6
+
+RMSE => 2.1
+
+
+Si fueran helados diriamos q la predicion de venta tiene un error de 2.1 helados + o - 
+
+**Coeficiente de determinacion**
+
+En lo valores reales siempre existira cierta variacion aleatoria, el medir que tan bien el modelo se adapta a esta variacion se realiza con esta metrica, los valres van de 0 a 1, siento 1 que los valores se adaptan a la perfecion
+
+Es decir mientras mas cercano a 1 mejor se adapta a los datos de validacin.
+
 
 
 
