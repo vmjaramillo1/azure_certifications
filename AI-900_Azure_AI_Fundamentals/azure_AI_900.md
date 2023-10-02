@@ -338,10 +338,90 @@ Si fueran helados diriamos q la predicion de venta tiene un error de 2.1 helados
 
 En lo valores reales siempre existira cierta variacion aleatoria, el medir que tan bien el modelo se adapta a esta variacion se realiza con esta metrica, los valres van de 0 a 1, siento 1 que los valores se adaptan a la perfecion
 
-Es decir mientras mas cercano a 1 mejor se adapta a los datos de validacin.
+Es decir mientras mas cercano a 1 mejor se adapta a los datos de validacion.
 
 
+## Clasificacion binaria
 
+Es una tecnica de el aprendisaje supervizado
+
+Se calucula la probabilidad de una obsercacion de pertenecer a una clase (matematicamente exclueyente - una de dos etiquetas)
+
+La probabilidad se mide en un valor de entre 0 - 1, para la etiqueta verdadera - falsa
+
+Matematicamente es: 
+
+F(x) = P(y=1|x)
+
+Probabilidad q y=1 dado x (para asumir q pertence o no a una categria se establece un **humbral de clasificacion**)
+
+### Metricas
+
+Por lo regular se utiliza la matriz de confcion para sacar la siguientes metricas
+
+
+IMAGEN
+
+
+Verdaderos negativoco 
+Verdaderos positivos
+Falsos negativos 
+Falsos positivos
+
+
+**Exactitud (Accurracy)**
+
+Indica el porcentaje de acierto de las prediciones correctas (Tn,TP) frente al total de las prediciones
+
+Es util con clases valanceadas
+
+Eje: Seria como decir q tan confiable es la predicion de un viejito(80% de acieto ya sea para bien o para mal)
+
+Esta metrica no es util con **clases desvalanceadas**
+
+
+**Precision (presition)**
+
+
+De todos los predichos como positivos, cuantos realmente son positivos
+
+TP / TP + FP
+
+util cuando el costo de los **falsos posticitivos es alto**
+
+ejem
+
+En medicina cuando un falso positivo puede llevar a conllvar un tratamiento peligroso como la detecion del canses y aplicar quimio
+
+**Recuperacion (Recall)**
+
+Indica de todos los TP cuantos fueron recuperados (De los positivos cuanto fueron correctamente clasificados como positivos)
+
+
+Problema no conciera **como se se clasifican los negativos**, es decir si clasifica un falso como positivo esto no importaria
+
+Ejm: si un modelo clasifica **todo** como positivo, el recall seria de 100% -> **ESTO ESTA MAL**
+
+Tp / TP+FN
+
+Cuando usar? Cuando el costo de detectar falsos como postivos es poco y solo intereza recuerar todos los postivios
+
+Ejem: Detectar todos los autos de una imagen
+
+
+**Puntuacion F1 (F1 Score):**
+
+
+Es una metrica q combina la precion y el recall para dar valance entre los dos
+
+**Util cuando los datos estan devalanceados**, valore de 0-1
+
+1 indica valor alto de precition y recall
+0 indica valores bajos y pobre rendimienot del modelo
+
+**ROC o area bajo la curva**
+
+Consta de dibujar un grafico para identivicar q tan bien predice el modelos ciendo asi q una curba alta y supere la lina diagonal( identifica la aleatoriaedad de predicion 50%) sera un modelos con un rendimineto por lo menos medianamente bueno.
 
 
 
