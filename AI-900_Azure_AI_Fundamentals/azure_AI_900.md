@@ -340,7 +340,6 @@ En lo valores reales siempre existira cierta variacion aleatoria, el medir que t
 
 Es decir mientras mas cercano a 1 mejor se adapta a los datos de validacion.
 
-
 ## Clasificacion binaria
 
 Es una tecnica de el aprendisaje supervizado
@@ -349,9 +348,11 @@ Se calucula la probabilidad de una obsercacion de pertenecer a una clase (matema
 
 La probabilidad se mide en un valor de entre 0 - 1, para la etiqueta verdadera - falsa
 
-Matematicamente es: 
+Matematicamente es:
 
+```
 F(x) = P(y=1|x)
+```
 
 Probabilidad q y=1 dado x (para asumir q pertence o no a una categria se establece un **humbral de clasificacion**)
 
@@ -362,20 +363,18 @@ Por lo regular se utiliza la matriz de confcion para sacar la siguientes metrica
 
 IMAGEN
 
-
-Verdaderos negativoco 
-Verdaderos positivos
-Falsos negativos 
-Falsos positivos
-
+- Verdaderos negativoco
+- Verdaderos positivos
+- Falsos negativos
+- Falsos positivos
 
 **Exactitud (Accurracy)**
 
-Indica el porcentaje de acierto de las prediciones correctas (Tn,TP) frente al total de las prediciones
+Indica el porcentaje de acierto de las prediciones correctas (TN,TP) frente al total de las prediciones
 
 Es util con clases valanceadas
 
-Eje: Seria como decir q tan confiable es la predicion de un viejito(80% de acieto ya sea para bien o para mal)
+**Eje:** Seria como decir q tan confiable es la predicion de un viejito(80% de acieto ya sea para bien o para mal)
 
 Esta metrica no es util con **clases desvalanceadas**
 
@@ -385,11 +384,13 @@ Esta metrica no es util con **clases desvalanceadas**
 
 De todos los predichos como positivos, cuantos realmente son positivos
 
+```
 TP / TP + FP
+```
 
-util cuando el costo de los **falsos posticitivos es alto**
+Util cuando el costo de los **falsos posticitivos es alto**
 
-ejem
+**ejem**
 
 En medicina cuando un falso positivo puede llevar a conllvar un tratamiento peligroso como la detecion del canses y aplicar quimio
 
@@ -397,14 +398,15 @@ En medicina cuando un falso positivo puede llevar a conllvar un tratamiento peli
 
 Indica de todos los TP cuantos fueron recuperados (De los positivos cuanto fueron correctamente clasificados como positivos)
 
-
 Problema no conciera **como se se clasifican los negativos**, es decir si clasifica un falso como positivo esto no importaria
 
 Ejm: si un modelo clasifica **todo** como positivo, el recall seria de 100% -> **ESTO ESTA MAL**
 
-Tp / TP+FN
+```
+TP / TP+FN
+```
 
-Cuando usar? Cuando el costo de detectar falsos como postivos es poco y solo intereza recuerar todos los postivios
+**Cuando usar?** Cuando el costo de detectar falsos como postivos es poco y solo intereza recuerar todos los postivios
 
 Ejem: Detectar todos los autos de una imagen
 
@@ -425,11 +427,58 @@ Consta de dibujar un grafico para identivicar q tan bien predice el modelos cien
 
 
 
+## Clasificacion multiclase
+
+Determna a que clase pertenece la obcervacion -> una de varias etiquetas posibles
+
+Se termina la clase mas probable
+
+Para el entrenamiento es necesario ajustar los datos, exiten 2 enfoques:
+
+**Algoritmo uno frente a todos (OvR):** 
+ 1. Se entrena una funcion de clasificacion binaria para cada clase
+ 2. Se calcula la probabilidad de la observacion para cada clase
+ 3. Se tima la probabilidad mas alta
+
+ ```
+ f0(x) = P(y=0|x)
+ f1(x) = P(y=1|x)
+ f2(x) = P(y=2|x)
+ ```
+
+**Algoritmo Multinomial**
+
+Enfoque alterno
+1. Se entrena una unica funcion (de salida multivalor)
+2. La salida es un vector con la probabilidad de cada clase, -> la suma debe dar 1 Ejm [0.2 ; 0.3 ; 0.5]
+3. Se toma la probabilidad mas alta
+```
+F(x) = [ P(y=1|x) ; P(y=1|x) ; P(y=2|x) ]
+```
+
+### Metricas
+
+Se usan las mismas q la clasificacion binaria (Matriz de conficion)
 
 
 
 
+## Agrupacion de Clusters 
 
+Aorendijsa no supervisado -> las observaciones se agrupan en clusters segun sus caracteristicas -> el cluster al q sin asignados es su etiqueta
+
+exiten varios algoritmo de clusters Ejem K-menas
+
+
+## Metricas
+
+La evaluacion se basa en el analisis de clos clusters, como la separacion de los cluster, distacia media de los elementos, etc
+
+
+- **Distancia media al centro del cluster**: proximidad media de cada elemento al centroide del cluster
+- **Distancia media a otro centro** Distancia media entre cada punto de cluster y el centroide de todos los demas cluster
+- **Distancia maxima al centro del cluster**distacia mas lejana de un punto al centrodide del cluster
+- **Silueta**valor entre 1 y -1 q define cuan alejados estan los puntos de un cluster con relacion a otro (mejor si es mas cercano a 1)
 
 
 
