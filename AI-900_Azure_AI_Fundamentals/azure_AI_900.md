@@ -460,12 +460,9 @@ F(x) = [ P(y=1|x) ; P(y=1|x) ; P(y=2|x) ]
 
 Se usan las mismas q la clasificacion binaria (Matriz de conficion)
 
+## Agrupacion de Clusters
 
-
-
-## Agrupacion de Clusters 
-
-Aorendijsa no supervisado -> las observaciones se agrupan en clusters segun sus caracteristicas -> el cluster al q sin asignados es su etiqueta
+Aprendizaje no supervisado -> las observaciones se agrupan en clusters segun sus caracteristicas -> el cluster al q sin asignados es su etiqueta
 
 exiten varios algoritmo de clusters Ejem K-menas
 
@@ -481,5 +478,66 @@ La evaluacion se basa en el analisis de clos clusters, como la separacion de los
 - **Silueta**valor entre 1 y -1 q define cuan alejados estan los puntos de un cluster con relacion a otro (mejor si es mas cercano a 1)
 
 
+## Deep learning (aprendisaje profundo)
 
+
+Aprendizaje supervisado que emula la forma en la q el cerebro aprende
+
+se basa en las neuronas atificiales -> una funcion matematica simple -> compuesta de parametro de entreda X, pesos (W), funcion de activacion y salida Y
+
+Una neurona sola no es util -> la union de muchas (cientos o miles) -> permite modelar conocimiento comple
+
+las neuronas de agrupan en capas y las capas se apilan una detras de otras -> a mas capas mas profunda la red (**X eso el nombre de Aprendizaje profundo**)-> mas complejo el conocimiento que modela
+
+Las desde neuronales son las union de funciones simples (neuronas) para formar una funcion anidada sumamente compleja
+
+una red neuronal puede resolver muchos tipos de probleas -> regresion, clasificacion, PLN, vision por computador, Etc
+
+
+para eso de debe pueden aplicar distintas arquitecturas, neuronas y funciones de activacion
+
+Funcion de activacion es una funcion que determina si la neurona de activa o no dependiendo del umblal definido segun a funcion, si la neurona de activa su valor pasas a la siginete capa, si no se activa su valor no pasa
+
+Esta interconecin neuronal se llama redes neuronales completamente conectadas
+
+Algunas funciones de activacion para la ultima capa de las redes son:
+
+- **Regression** - Linear Activation Function
+- **Binary Classification** —Sigmoid/Logistic Activation Function
+- **Multiclass Classification** —Softmax
+- **Multilabel Classification** —Sigmoid
+
+Redes neuronales profundas ==> DNN
+
+### Entrenamiento
+
+Se aplica de fomra iterativa en EPOCAS
+
+En cada ciclo se ajustan los pesos (W) para minimizar el valor de error o perdida general de la red
+
+Los valores (w) cambian segun una funcion de opbtimizacion que indica si el valos de W debe subir o bajar para mejorar el valor de perdida
+
+La funcion de obtimizacion se llama: Desenzo del gradiente esticatico -> existen varias variables de esta
+
+El modelo entrenado son los pesos (w) de la red que permiten obtener la mejor predicion, obteniendo el menor error posible y con los mejores resultados aceptables
+
+
+
+
+**NOTA**:  los datos de entrenamiento se procesan por lotes en matrices y se procesan mediante cálculos algebraicos lineales. NO SE PASAN DE UNO EN UNO
+
+
+
+
+
+
+
+Dentro de una función de pérdidas en Deep Learning, las más comunes son:
+
+Problemas de regresión:
+Mean Squared Error
+Mean Absolute Error
+Problemas de clasificación:
+Binary Cross-Entropy
+Categorical Cross-Entropy
 
