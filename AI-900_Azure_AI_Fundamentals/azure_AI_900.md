@@ -38,7 +38,7 @@ Cargas de trabajo:
 - **Deteccion de anomalias:** detectar errores o actividades inusuales
 - **Vision informatica:**: (vision por computador) capacidad del software de interpresar el mundo por camaras, video e imagenes.
 - **Prosesamiento de lenguaje natural**: (PLN) capacidad para intepresar lenguaje escrito o hablado y responder
-- **Mineria de conocimiento**: Capacidad para extraer informacion **util** de grandes volumenes de datos (no exrtucturados) para crear almacen de conocimiento
+- **Mineria de conocimiento**: Capacidad para extraer informacion **util** de grandes volumenes de datos (no exrtucturados) para crear almacen de **conocimiento**
 
 ### Aprendizaje automatico
 
@@ -527,17 +527,37 @@ El modelo entrenado son los pesos (w) de la red que permiten obtener la mejor pr
 **NOTA**:  los datos de entrenamiento se procesan por lotes en matrices y se procesan mediante cálculos algebraicos lineales. NO SE PASAN DE UNO EN UNO
 
 
-
-
-
-
-
 Dentro de una función de pérdidas en Deep Learning, las más comunes son:
 
-Problemas de regresión:
-Mean Squared Error
-Mean Absolute Error
-Problemas de clasificación:
-Binary Cross-Entropy
-Categorical Cross-Entropy
+**Problemas de regresión:**
+- Mean Squared Error
+- Mean Absolute Error
 
+**Problemas de clasificación:**
+- Binary Cross-Entropy
+- Categorical Cross-Entropy
+
+## Azure Machine Learning
+
+Servicio en nube de Azure para entrenar, implementar, evaluar y administrar modelos de ML (Todo el ciclo de inicio a fin)
+
+incluye: 
+- Explorar y preparar datos
+- Entrenar y evaluar modelos
+- registrar y administrar modelos
+- implementacion de modelos (x apps o servicios)
+- revision demo modelos (monitoreo)
+
+Caracteristia del servicio de Azure ML
+
+1. Almacen centralizado de datos (train/test)
+2. Gestion de recusos bajo demanda
+3. AutoML  -> para entrenar modelos de forma automatica
+4. Integracion con framewokrs de desarrollo de ML (MLFlow)
+5. Herramientas para gestionar entrenamientos
+6. Facilita la vosualizacoin de metricas
+
+Al usuario se le disponibiliza 
+
+1. Area de trabajo de Azure ML -> para crear el entorno definir recursos y demas
+2. Estudio de azure de ML -> Web donde se controla todo a nivel operativo
