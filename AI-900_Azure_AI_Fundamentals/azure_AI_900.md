@@ -561,3 +561,44 @@ Al usuario se le disponibiliza
 
 1. Area de trabajo de Azure ML -> para crear el entorno definir recursos y demas
 2. Estudio de azure de ML -> Web donde se controla todo a nivel operativo
+
+## 3 Azure Open IA
+
+- Asociacion entre Azure y Open IA
+- Ofrecen un servicio combinado en Azure
+
+**Azure ofrece:**
+- Infraestructura
+- Implementacion de modelos Open IA en productos Microsoft
+- Potencia cargas de trabajo
+
+**Open IA ofrece:**
+- Sus modelos para ser utilizados
+
+
+**Azure Open IA consta de:**
+1. Modelos Ia Pre-Entrenados
+2. Fine tunning de modelos
+3. Herramientas para evitar el mal uso de la IA
+4. Seguridad empresarial
+
+
+**IA generativas** -> genera contenido en base  una entrada
+
+Cargas de trabajo soportadas en Azure Open IA:
+
+- Generacion de PLN 
+	- Genera y detia texto
+	- Busca clasifica y compara texto
+- Generacion de codigo
+	- Genera edita y explica codigo
+- Genera imagenes
+	- Genera y edita imagenes
+
+
+**DOS OPCIONES DE IA EN AZURE**
+
+- Azure IA -> Para casos genericos
+- Azure Open IA -> Para casos especificos
+
+## Funcionalidades de PLN de Open IA
