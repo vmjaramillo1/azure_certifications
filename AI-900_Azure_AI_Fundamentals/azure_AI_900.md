@@ -2,7 +2,7 @@
 
 Proyecto correspondiente a información para lograr la certificacion de Azure AI 900
 
-
+[Preguntas PREPARATORIAS](https://www.examtopics.com/exams/microsoft/ai-900/)
 
 [Notaciones y concejos para la preparacion del examen](https://ifgeekthen.nttdata.com/es/guia-para-preparar-el-examen-ai-900)
 
@@ -12,7 +12,17 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 
 [Examenes de prueba](https://www.youtube.com/watch?v=8XhQcAgdxXI&list=PLGnDOd349NCNxtsQpeWtIyD7lY1IrYw-n&index=7)
 
-[Video curso preparatorio](https://www.youtube.com/watch?v=6DQvItqEKfI&list=PL3hNLk-aR0J97QHh7uZfafnUxIdQS5nSD&index=5)
+
+
+VIDEO CURSOS
+- [Video curso preparatorio - COMPLETO (varias clases)](https://www.youtube.com/watch?v=6DQvItqEKfI&list=PL3hNLk-aR0J97QHh7uZfafnUxIdQS5nSD&index=5)
+- Videos largos
+	- [Clase 1](https://www.youtube.com/watch?v=LLpgGnGi-7U)
+	- [Clase 2](https://www.youtube.com/watch?v=JLwojTS26Uc)
+	- [Final](https://www.youtube.com/watch?v=Dmf8lY7ThZQ)
+ - Repaso antes del examen 1 - 5
+	- [Clase 1](https://www.youtube.com/watch?v=fAFUTwz8cxM&list=PL7oUSQgo7Mcvf5nMG1GeTqhdsY84kkD72&index=16)
+ 	- 
 
 ### Temario
 
