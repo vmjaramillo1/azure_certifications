@@ -593,10 +593,12 @@ Concepto de valores residuales: diferencia entre valor previsto y real
 
 Histograma de valores residuales: -> frecuencia de intervalo de valores residuales -> se quiere que esten acumulados en torno a 0 -> para minimzar errores grandes (extremos)
 
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/167232ba-750f-4def-a250-3e0e96fc0dd5)
 
 
 Valores previstos frente a reales: tendencia diagonal que correlaciona entre valores previstos (puntos) y valores reales(linea) mientras mas serca mejor rendimiento del modelo
 
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/f23ffb26-8639-4e41-bd50-24c511779945)
 
 
 
