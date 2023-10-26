@@ -60,11 +60,11 @@ Estos datos se generan todos lods dias mediante nuestras interaciones (dispositi
 
 El ciclo para el ML es el siguiente
 
-1.- Se obtienen los datos
-2.- Se etiquetan los datos
-3.- Se entrenas modelos con los datos para resolver un tarea
-4.- Se empasula el resultado en un modelo (h5 x ejemplo)
-5.- Se grean sistemas q utilizan el modelo
+1. Se obtienen los datos
+2. Se etiquetan los datos
+3. Se entrenas modelos con los datos para resolver un tarea
+4. Se empasula el resultado en un modelo (h5 x ejemplo)
+5. Se grean sistemas q utilizan el modelo
 
 **Aprendizaje automatico en azure**
 
