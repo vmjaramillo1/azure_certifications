@@ -573,7 +573,6 @@ Al usuario se le disponibiliza
 2. Estudio de azure de ML -> Web donde se controla todo a nivel operativo
 
 
-
 ## Auto ML
 
 Permite entrenar multiples modelos para evaluar y comparar cual seria el mejor para los datos
@@ -585,7 +584,6 @@ ahi se debe crear un recurso
 La forma de comparar al mejor modelo es un indicador o por early stoping
 
 se utilizaon las siguientes metricas:
-
 
 NRMSE: raiz del error cuadrado medio normalizado, util para comparar modelos de diferentes escalas
 
@@ -599,8 +597,6 @@ Histograma de valores residuales: -> frecuencia de intervalo de valores residual
 Valores previstos frente a reales: tendencia diagonal que correlaciona entre valores previstos (puntos) y valores reales(linea) mientras mas serca mejor rendimiento del modelo
 
 ![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/f23ffb26-8639-4e41-bd50-24c511779945)
-
-
 
 ## 3 Azure Open IA
 
@@ -642,3 +638,95 @@ Cargas de trabajo soportadas en Azure Open IA:
 - Azure Open IA -> Para casos especificos
 
 ## Funcionalidades de PLN de Open IA
+
+Entrenamiento de modelos por tokens -> asignados  vectores
+
+GPT -> generative pre-trainet tranformer 
+
+Tareas:
+ - Resumen de Texto
+ - Clasificacion de texto
+ - Generacio de nombres o frases
+ - Traduccion
+ - Responder preguntas
+ - Sugerir contenido
+
+## Generacion de codigo de Open IA
+
+Entrenado con codigo y lenguaje natural
+
+**Copilot** como modelo de codigo -> Open IA Codex (modelo)
+
+## Generacion de Imagenes
+
+Basado en DALLE.3 
+Entrenado con imagenes
+
+
+## IA Services
+
+Servicio -> contruir aplicaciones -> impementando:
+- Reconocimiento de imagenes
+- PLN
+- Lenguaje hablado
+- Busquedas
+- Etc
+
+
+IA services -> se basa en **3 principios**
+
+1. Pre diseñado y listo para usar
+	- Soluciona problema de recursos (costos de datos, entrenamiento, recursos, etc)
+	- Para emprasas de todo porte
+	- Modelos pre-entrenados listos para usar (y modificar con fine tunning)
+2. Acesso basado en API:
+	- Se puede usar en diferentes entornos de desarrollo
+	- API REST full, librerias, APP de logica
+3. Disponible en Azure:
+	- **PaaS**: Plataform as a service
+	- **IaaS**: Infraestructure as a service
+
+
+### Creando Azure IA services
+
+Se deben crear recrusos para ser usados
+
+Dos tipos de servicios:
+
+- **Multi Servicios**: Recursos que brindan acceso a multiples ervicios -> un solo KEY - EndPoint -> al usar uno solo de los recursos **TODO SE FACTURA JUNTO**
+- **Single services**: Un solo recurso -> acceso a un unico servicio -> a cada servicio se accede con un KEY-EndPoint -> **SE FACTURA POR SEPARADO**  -> *TIENEN CUPO GRATIS*
+
+### Autenticacion
+
+Limitar accesos -> solo solicitudes autenticadas
+
+API REST Full -> Autenticacion en cada solicitud -> basado en Key de autenticacion
+
+# Implementaciones - practicas
+
+
+**Instancia de proceso** 
+
+Son recursos para entrenar, 4 ociones de instancias:
+- **Instancia de proceso:** Estacion de trabajo para datos y modelos
+- **Cluster de proceso:** Maquina virtual ->Procesamiento dedicado por peticion, altamente escalable
+- **Cluster de Kubernetes**: Destino de implementacion (Produccion)
+- **Proceso Asociado**: Viculos a recuros existentes
+
+
+## Diseñador
+
+Crear proyetos de ML -> forma grafica -> el flujo se contruye igual q un diagrama
+
+Se usa 3 componentes:
+
+- Conjuntos de datos: Gestiona de datos (archivos locales, almacen de datos, archivos web, dataset)
+- Componentes: Accionales para el diagrama, pasos dentro del flujo
+- Pipelines: Gestion flujo de trabajo, se pueden reutilizar (para concervar configuracoin, accionables, etc)
+
+## Trabajo de Azure ML
+
+
+
+
+
