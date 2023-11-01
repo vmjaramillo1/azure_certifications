@@ -602,3 +602,50 @@ Cargas de trabajo soportadas en Azure Open IA:
 - Azure Open IA -> Para casos especificos
 
 ## Funcionalidades de PLN de Open IA
+
+Los modelos entrenan con tokens (segmentos de palabras) asignado a vectores
+
+GPR -> Generate pre-trainet tranformer ->**exelentes para PLN**
+
+- Resumen texto
+- Clasifican texto
+- Generan nombre o frases
+- Traduccion
+- Responer preguntas
+- Sugerir contenido
+
+
+**Generadores de Codigo -> modelo CODEX**  
+
+Entrenan con codigo -> ademas de lenguaje natural
+
+**Copilot** Maximo esponenete de funcionalidad integrada en IDE
+
+**Generadores de imagenes -> DALLE**
+
+Genera imagenes basado en una descriocion de la imagen -> PRONT
+
+## IA services
+
+Permite contruir aplicaciones -> Implementa:
+
+- Reconocimineto de imagenes
+- PLN
+- Lenguaje hablado
+- Busquedas
+- etc
+
+Esta basdo en -> 3 Principios:
+
+1. **Pre diseñado y listo para usar:** 
+   1. Soluciona problema de recursos para entrenar (costos, datos, infraestructura, etc)
+   2. Disponible para empresas de todo tamaño (modelos pre entrenado)
+   3. Permite Fine Tuning para casos especificos
+2. **Acceso basado en API**
+   1. Adaptable a diferentes entornos de desarrollo
+   2. REST API, librerias, APP de logica (Power Automate)
+3. **Disponible en azure**
+   1. Perimite q se use la mejor opcion segun el caso: 
+      1. Paas -> Plataform as a service
+      2. IaaS -> Infraestructure as a service
+
