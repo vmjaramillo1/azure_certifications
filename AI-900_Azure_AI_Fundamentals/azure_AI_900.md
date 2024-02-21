@@ -2,7 +2,7 @@
 
 Proyecto correspondiente a información para lograr la certificacion de Azure AI 900
 
-
+[Preguntas PREPARATORIAS](https://www.examtopics.com/exams/microsoft/ai-900/)
 
 [Notaciones y concejos para la preparacion del examen](https://ifgeekthen.nttdata.com/es/guia-para-preparar-el-examen-ai-900)
 
@@ -12,7 +12,17 @@ Proyecto correspondiente a información para lograr la certificacion de Azure AI
 
 [Examenes de prueba](https://www.youtube.com/watch?v=8XhQcAgdxXI&list=PLGnDOd349NCNxtsQpeWtIyD7lY1IrYw-n&index=7)
 
-[Video curso preparatorio](https://www.youtube.com/watch?v=6DQvItqEKfI&list=PL3hNLk-aR0J97QHh7uZfafnUxIdQS5nSD&index=5)
+
+
+VIDEO CURSOS
+- [Video curso preparatorio - COMPLETO (varias clases)](https://www.youtube.com/watch?v=6DQvItqEKfI&list=PL3hNLk-aR0J97QHh7uZfafnUxIdQS5nSD&index=5)
+- Videos largos
+	- [Clase 1](https://www.youtube.com/watch?v=LLpgGnGi-7U)
+	- [Clase 2](https://www.youtube.com/watch?v=JLwojTS26Uc)
+	- [Final](https://www.youtube.com/watch?v=Dmf8lY7ThZQ)
+ - Repaso antes del examen 1 - 5
+	- [Clase 1](https://www.youtube.com/watch?v=fAFUTwz8cxM&list=PL7oUSQgo7Mcvf5nMG1GeTqhdsY84kkD72&index=16)
+ 	- 
 
 ### Temario
 
@@ -34,7 +44,7 @@ Es la creacion de software que imita el comportamienot y capacidades humanas
 
 Cargas de trabajo:
 
-- **Aprendizaje automatico:** Base del sistema de IA, es la forma de enseñar a un modelo a predecir y opbener conclciones de los datos
+- **Aprendizaje automatico:** Base del sistema de IA, es la forma de enseñar a un modelo a predecir y obtener concluciones de los datos
 - **Deteccion de anomalias:** detectar errores o actividades inusuales
 - **Vision informatica:**: (vision por computador) capacidad del software de interpresar el mundo por camaras, video e imagenes.
 - **Prosesamiento de lenguaje natural**: (PLN) capacidad para intepresar lenguaje escrito o hablado y responder
@@ -50,11 +60,11 @@ Estos datos se generan todos lods dias mediante nuestras interaciones (dispositi
 
 El ciclo para el ML es el siguiente
 
-1.- Se obtienen los datos
-2.- Se etiquetan los datos
-3.- Se entrenas modelos con los datos para resolver un tarea
-4.- Se empasula el resultado en un modelo (h5 x ejemplo)
-5.- Se grean sistemas q utilizan el modelo
+1. Se obtienen los datos
+2. Se etiquetan los datos
+3. Se entrenas modelos con los datos para resolver un tarea
+4. Se empasula el resultado en un modelo (h5 x ejemplo)
+5. Se crean sistemas q utilizan el modelo
 
 **Aprendizaje automatico en azure**
 
@@ -102,7 +112,7 @@ En azure se ofrece los siguientes servicios:
 
 ## Procesmaiento de lenguaje Natural (PLN)
 
-Area de la IA encargada de analizar el lengaje tanto hablado como escrito entenderlo dar dignificado y actuar en consecencia.
+Area de la IA encargada de analizar el lenguaje tanto hablado como escrito entenderlo dar dignificado y actuar en consecencia.
 
 Las tareas de esta area destacan: 
 
@@ -126,7 +136,7 @@ Describe el area de la IA que se encarga de la extraccion de informacion de gran
 
 - *Azure cognitive search:* servicio que permite crear indices de conocimiento (estos se pueden usar internamiente o en busquedas de recursos en internet y de acceso publico)
 
-**Nota:** est servicio hace uso de los demas servicios de azure para obtener informacion de documentos y mejorar las busquedas como antes no era posible (utiliza vision por computatos, PLN, anmalias, etc)
+**Nota:** est servicio hace uso de los demas servicios de azure para obtener informacion de documentos y mejorar las busquedas como antes no era posible (utiliza vision por computatos, PLN, anomalias, etc)
 
 
 ## Desafios y riesgos de la IA
@@ -137,7 +147,7 @@ Describe el area de la IA que se encarga de la extraccion de informacion de gran
 |Errores que causan daños| si un modelo que forma parte de un sitema critico o medico falla puede causar daños no solo fiscos si no tamb a la salud de los pasientes|
 |Filtracion de dados| los modelos tienen problema para saber q informacion es sencible o prohibida y podrian terminar filtrando datos sencibles de una empresa o persona|
 |Quien es el resposable de las decisiones| En caso que los modelos fallen y causen daños a una persona o la muerte de alguien, quien es el responsable?|
-|LAs soluciones no funcionan para todos| Relacionado con el sesgo del punto un, puede ser q un modelo no funcione para todos los usuarios, siendo una solucion no solo incompleta si no tamb causar daños a las personas si es un sistema critico como un sitema para invidentes|
+|Las soluciones no funcionan para todos| Relacionado con el sesgo del punto un, puede ser q un modelo no funcione para todos los usuarios, siendo una solucion no solo incompleta si no tamb causar daños a las personas si es un sistema critico como un sitema para invidentes|
 |Hacer que las personas confien en la IA| Si un sistema de IA toma deciciones criticas como es q lo hacen ?|
 
 
@@ -168,7 +178,7 @@ Deben ser testeados para ser seguros y confiables -> asi no causen daño en el m
 
 Los pequeños errores se acumlan y mas si afectan a conjuntos grandes de usuarios
 
-### Privacidad y seguidad
+### 3. Privacidad y seguidad
 
 Sistemas de IA deben ser seguros y respetar privacidad de datos
 
@@ -178,22 +188,22 @@ Esto puede causar riegos de dibulgacion de informacion
 
 Se debe tener cuidado con los datos usados y evitar poner en riesgo la privacidad o dibulgacion de datos
 
-### Inclucion
+### 4. Inclucion
 
 Modelos q incluiyan a todos, sin discriinar por ningun aspecto
 (ya sea dicapacidad, cultura, credo, religion, color de piel, genero, etc)
 
 Respetar a las comunidades sin ignorar miorias
 
-**EXOERIENCIAS DE IA PARA TODOS**
+**EXPERIENCIAS DE IA PARA TODOS**
 
-### Transparencia
+### 5. Transparencia
 
 Los usuarios deben saber el proposito, funcionamiento y limites del sistema
 
 Asi se genera confianza de los usuarios
 
-### Resonsabilidad
+### 6. Resonsabilidad
 
 Debemos ser responsables de las soluciones de IA
 
@@ -474,8 +484,8 @@ La evaluacion se basa en el analisis de clos clusters, como la separacion de los
 
 - **Distancia media al centro del cluster**: proximidad media de cada elemento al centroide del cluster
 - **Distancia media a otro centro** Distancia media entre cada punto de cluster y el centroide de todos los demas cluster
-- **Distancia maxima al centro del cluster**distacia mas lejana de un punto al centrodide del cluster
-- **Silueta**valor entre 1 y -1 q define cuan alejados estan los puntos de un cluster con relacion a otro (mejor si es mas cercano a 1)
+- **Distancia maxima al centro del cluster** distacia mas lejana de un punto al centrodide del cluster
+- **Silueta** valor entre 1 y -1 q define cuan alejados estan los puntos de un cluster con relacion a otro (mejor si es mas cercano a 1)
 
 
 ## Deep learning (aprendisaje profundo)
@@ -515,7 +525,7 @@ Se aplica de fomra iterativa en EPOCAS
 
 En cada ciclo se ajustan los pesos (W) para minimizar el valor de error o perdida general de la red
 
-Los valores (w) cambian segun una funcion de opbtimizacion que indica si el valos de W debe subir o bajar para mejorar el valor de perdida
+Los valores (w) cambian segun una funcion de optimizacion que indica si el valos de W debe subir o bajar para mejorar el valor de perdida
 
 La funcion de obtimizacion se llama: Desenzo del gradiente esticatico -> existen varias variables de esta
 
@@ -555,12 +565,38 @@ Caracteristia del servicio de Azure ML
 3. AutoML  -> para entrenar modelos de forma automatica
 4. Integracion con framewokrs de desarrollo de ML (MLFlow)
 5. Herramientas para gestionar entrenamientos
-6. Facilita la vosualizacoin de metricas
+6. Facilita la visualizacion de metricas
 
 Al usuario se le disponibiliza 
 
 1. Area de trabajo de Azure ML -> para crear el entorno definir recursos y demas
 2. Estudio de azure de ML -> Web donde se controla todo a nivel operativo
+
+
+## Auto ML
+
+Permite entrenar multiples modelos para evaluar y comparar cual seria el mejor para los datos
+
+disponbile dentro **Microsoft Azure Machine Learning Studio**
+
+ahi se debe crear un recurso
+
+La forma de comparar al mejor modelo es un indicador o por early stoping
+
+se utilizaon las siguientes metricas:
+
+NRMSE: raiz del error cuadrado medio normalizado, util para comparar modelos de diferentes escalas
+
+Concepto de valores residuales: diferencia entre valor previsto y real
+
+Histograma de valores residuales: -> frecuencia de intervalo de valores residuales -> se quiere que esten acumulados en torno a 0 -> para minimzar errores grandes (extremos)
+
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/167232ba-750f-4def-a250-3e0e96fc0dd5)
+
+
+Valores previstos frente a reales: tendencia diagonal que correlaciona entre valores previstos (puntos) y valores reales(linea) mientras mas serca mejor rendimiento del modelo
+
+![image](https://github.com/vmjaramillo1/azure_certifications/assets/6383659/f23ffb26-8639-4e41-bd50-24c511779945)
 
 ## 3 Azure Open IA
 
@@ -603,6 +639,7 @@ Cargas de trabajo soportadas en Azure Open IA:
 
 ## Funcionalidades de PLN de Open IA
 
+<<<<<<< HEAD
 Los modelos entrenan con tokens (segmentos de palabras) asignado a vectores
 
 GPR -> Generate pre-trainet tranformer ->**exelentes para PLN**
@@ -648,4 +685,96 @@ Esta basdo en -> 3 Principios:
    1. Perimite q se use la mejor opcion segun el caso: 
       1. Paas -> Plataform as a service
       2. IaaS -> Infraestructure as a service
+=======
+Entrenamiento de modelos por tokens -> asignados  vectores
+
+GPT -> generative pre-trainet tranformer 
+
+Tareas:
+ - Resumen de Texto
+ - Clasificacion de texto
+ - Generacio de nombres o frases
+ - Traduccion
+ - Responder preguntas
+ - Sugerir contenido
+
+## Generacion de codigo de Open IA
+
+Entrenado con codigo y lenguaje natural
+
+**Copilot** como modelo de codigo -> Open IA Codex (modelo)
+
+## Generacion de Imagenes
+
+Basado en DALLE.3 
+Entrenado con imagenes
+
+
+## IA Services
+
+Servicio -> contruir aplicaciones -> impementando:
+- Reconocimiento de imagenes
+- PLN
+- Lenguaje hablado
+- Busquedas
+- Etc
+
+
+IA services -> se basa en **3 principios**
+
+1. Pre diseñado y listo para usar
+	- Soluciona problema de recursos (costos de datos, entrenamiento, recursos, etc)
+	- Para emprasas de todo porte
+	- Modelos pre-entrenados listos para usar (y modificar con fine tunning)
+2. Acesso basado en API:
+	- Se puede usar en diferentes entornos de desarrollo
+	- API REST full, librerias, APP de logica
+3. Disponible en Azure:
+	- **PaaS**: Plataform as a service
+	- **IaaS**: Infraestructure as a service
+
+
+### Creando Azure IA services
+
+Se deben crear recrusos para ser usados
+
+Dos tipos de servicios:
+
+- **Multi Servicios**: Recursos que brindan acceso a multiples ervicios -> un solo KEY - EndPoint -> al usar uno solo de los recursos **TODO SE FACTURA JUNTO**
+- **Single services**: Un solo recurso -> acceso a un unico servicio -> a cada servicio se accede con un KEY-EndPoint -> **SE FACTURA POR SEPARADO**  -> *TIENEN CUPO GRATIS*
+
+### Autenticacion
+
+Limitar accesos -> solo solicitudes autenticadas
+
+API REST Full -> Autenticacion en cada solicitud -> basado en Key de autenticacion
+
+# Implementaciones - practicas
+
+
+**Instancia de proceso** 
+
+Son recursos para entrenar, 4 ociones de instancias:
+- **Instancia de proceso:** Estacion de trabajo para datos y modelos
+- **Cluster de proceso:** Maquina virtual ->Procesamiento dedicado por peticion, altamente escalable
+- **Cluster de Kubernetes**: Destino de implementacion (Produccion)
+- **Proceso Asociado**: Viculos a recuros existentes
+
+
+## Diseñador
+
+Crear proyetos de ML -> forma grafica -> el flujo se contruye igual q un diagrama
+
+Se usa 3 componentes:
+
+- Conjuntos de datos: Gestiona de datos (archivos locales, almacen de datos, archivos web, dataset)
+- Componentes: Accionales para el diagrama, pasos dentro del flujo
+- Pipelines: Gestion flujo de trabajo, se pueden reutilizar (para concervar configuracoin, accionables, etc)
+
+## Trabajo de Azure ML
+
+
+
+
+>>>>>>> a3d5f4a1cc9fda34f1bd485a2cdf49525ad72fcb
 
