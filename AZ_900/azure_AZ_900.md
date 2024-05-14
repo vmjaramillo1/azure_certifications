@@ -228,10 +228,139 @@ Nota: Recorda SLA -> Acuerdos de nivel de servicios
 - **SaaS:** Software como servicio -> Se arquila un sistema tal cual (Normalmente se usa una licencia, ejem Officce 365)
 
 
+
+
+
+
+## 5.Componentes centrales de azure <a name="intro_azure"></a>
+
+**Regiones**
+- Una region en un agrea Geografica
+- Azure distribuye el trabajo en diferentes areas al rededor del mundo (para tener trabajo equilibrado y escalabilidad)
+- Azure tiene mas region q cualquier otro proveedor (mayor recilencia)
+
+
+**Pares de regiones**
+
+- Son replicas a una *"N"* discancia
+- Permite respaldos dentro de la misma Geografia
+
+**Zonas de disponibilidad**
+
+- Se encuentra dentro de la region
+- puede haber una o varias en cada region
+- Es Infraestructura redundante, protege ante fallos, y brinda alta disponibilidad
+- Existe un costo en duplicar el recurso en mas de una Zonas
+- En cada zona encontramos un data center
+
+
+**ASL**
+
+- Recurso solo en una zona  -> 90%
+- Recurso duplicado en en misma zona -> 95%
+- Recurso duplicado en varias zonas -> 99%
+
+
+**Redundancia de recursos**
+
+- Si se cae una zona el trafico se pasa a la zona duplicada
+- Los pares de zonas de disponibilidd se usan para partes criticas (BD, MV, Discos, Valanceadores de carga)
+- Tambien existe pares de regiones
+
+**Categorias de Servicios de Azure por Zonas**
+
+- Servicios Zonales: Recurso en una sola zona
+- Servicios con Redundancia de zona: Plataforma de replica automatica de recurso
+- Servicios no regionales: Disponibles en todo el mundo
+
+
+**Niveles organizativos de los recursos y grupos de recursos**
+
+IMAGEN
+
+1. Recurso: instancia de servicio
+2. Grupo de recursos: grupo se servicios (Facilita administracion, gestion, orden y manejor de permisos basados en roles)
+3. subscriocion: Agrupa cuentas de usuarios (tiene limites o cuotas)
+4. Grupo administrativo: Administracion de accesos y politicas, las subscripciones heredan las condiciones aplicadas a cada grupo
+
+
+
+**Grupos de recursos**
+
+Hay dos términos importantes:
+• Recurso: es un elemento único.
+• Grupo de recursos: es una agrupación que contiene recursos relacionados. Ayudan a administrar y organizar los recursos.
+
+
+Características de los grupos de recursos:
+1. Al eliminar un grupo de recursos se eliminan todos los recursos que contiene.
+2. Permiten aplicar permisos de control de acceso basado en roles (RBAC)
+
+
+
+**Azure Resource Manager**
+
+Grafico
+
+- Permite Gestion de recursos
+- Usar bloqueos 
+- control de accesos
+- Etiquetas
+- Bus para gestion de recursos
+
+**Suscripciones de Azure**
+
+- Acceso autenticado y autorizado a serivios de  azure
+- Es la unidad logica vinculada a la cuenta de Azure (identidad en aztive directory o directorio de confianza)
+
+
+1 CUENTA  -> 1 O VARIAS Suscripciones -> diferentes modelos de facturacion o acceso
+
+**limite sde subscriocion: **
+
+- por facturacion
+- por control de acceso
+
+
+**Personalización de la facturación**
+
+- Dentro de misma cuenta mmultiples facturas con subscripciones
+subscriocion permite organizar el control de acceso a los recursos y facturacion
+- Se puede configurar varias facturas dentro de la misma cuenta de facturación de Azure. Para hacer esto, hay que crear perfiles de facturación adicionales. Cada perfil de facturación tiene su propia factura mensual y método de pago.
+
+
+**Grupos de administración**
+
+- util si muchas Suscripciones
+- organiza Suscripciones en grupos de administracion que heredan politicas
+
+Ejm: Limites de recursos, creacion de NV, etc
+
+# Servicios de Azure
+
+IMAGEN
+
+
+## Servicios de computo
+
+**Fundamentos**
+
+Azure Compute es un servicio de computación bajo demanda para ejecutar aplicaciones basadas en la nube.
+
+Proporciona recursos informáticos como discos, procesadores, memoria, redes y sistemas operativos. Pago por uso.
+
+
+**Tipos de servicios de computo**
+
+- Maquinas virtuales: Emulacion de computacion
+- Conjuntos de escalado: Administracion de conjuntos de MV, identicas para escalado de recursos
+- Contenedores y kubernetes: entornos de APPs virtualizadas y ligeras
+- Servicio de aplicaciones: Para implementar y escalar APPs web, movil y API
+- Funciones: Para implementar solo codigo y no ocuparnos de la plataforma o Infraestructura
+
+
+
 --------------------------
-
-## 5.Componentes centrales de Azure <a name="intro_azure"></a>
-
 
 
 
