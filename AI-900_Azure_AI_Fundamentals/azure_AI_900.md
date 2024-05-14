@@ -22,7 +22,6 @@ VIDEO CURSOS
 	- [Final](https://www.youtube.com/watch?v=Dmf8lY7ThZQ)
  - Repaso antes del examen 1 - 5
 	- [Clase 1](https://www.youtube.com/watch?v=fAFUTwz8cxM&list=PL7oUSQgo7Mcvf5nMG1GeTqhdsY84kkD72&index=16)
- 	- 
 
 ### Temario
 

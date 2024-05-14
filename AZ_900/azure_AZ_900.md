@@ -1,4 +1,4 @@
-# azure_certifications
+# Azure Certifications
 Proyecto correspondiente a información para la certificacion de Azure Az 900
 
 ## Temario
@@ -6,11 +6,13 @@ Proyecto correspondiente a información para la certificacion de Azure Az 900
 ### Parte 1: Describir los conceptos básicos de Azure
 
 
- 1. Introduccion
- 2. Sobre la certificacion
- 3. Introduccion a Azure
- 4. Fundamentos de Azure
- 5. Componentes centrales de Azure
+1. [Introduccion a la inteligencia artificial](#into)
+
+ 1. [Introduccion](#intro)
+ 2. [Sobre la certificacion](#cert)
+ 3. [Introduccion a Azure](#intro_azure)
+ 4. [Fundamentos de Azure](#fundam)
+ 5. [Componentes centrales de Azure](#compo)
 
 ### Parte 2: Servicios centrales de Azure
  6. Servicios de computo de Azure
@@ -45,7 +47,7 @@ Proyecto correspondiente a información para la certificacion de Azure Az 900
 
 
 
-## 1.Introduccion
+## 1.Introduccion <a name="intro"></a>
 
 En el curso se refectuara una aproximacion a los diferentes conveptos de Azure tanto a nivel tecnico como de plataforma.
 
@@ -97,7 +99,7 @@ El certificado se optinee al completal el 100% de totas las clases
 - revizar linkendin con descunetos
 
 
-## 2.Contenido del curso
+## 2.Contenido del curso <a name="cert"></a>
 
 **Sobre el examen**
 Se recomiendo q en los examentes de text loguemos un 80 %
@@ -133,52 +135,105 @@ Se cumbren:
 
 Se debe registrar en sitio web de microsoft
 
-## 3 Introducion a Azure fundamentals
+## 3 Introducion a Azure fundamentals <a name="intro_azure"></a>
 
 **Azure**
 
 Azure es el conjunto de servicios de computacion en nube ofrecidos por microsof.
 En azure se arquila recursos y se paga por lo q se usa
-Azure ofrece mas de 100 servicio diferntes entre Maquitas virtuales, almacenamiento, IA, etc.
+Azure ofrece mas de 100 servicios diferentes entre Maquitas virtuales, almacenamiento, IA, etc.
 
 Los servicio de azure se clasifican segun tipo, algunos de ellos son:
 
-
-
-Compute: Computadoras virtuales/cntenedores de kubernetes
-
-Storage: Almacenamiento de archivos 
-  Blob: para archivos binarios
-  Quetes: colas de datos
-  Files:  para archivos
-  Disck: de espacio en disco
-
-Networking: Todo lo relacionado a como se conecta uno a los servicio de azure, balanceadores de carga, ruteo, VPN Gatewaay, app Gateway
-
-Application plataform: Para creacion de servicios de aplicaciones (API), escalado automatico, notificaciones, servicios de aplicaciones HTPL, etc
-
-Analitics y IoT: Todo lo relacionado a hadware conectado a nube, tamb servicios de presentacion tipo Power Bi
-
-Data: servicios de base de datos SQL, SQL server, dataWareHouse, cosmos DB, etc
-
-Intelligence: servicios para IA, bot chats y servicios cognitivos, temas de Azure ML
-
-Seguridad: seguridad apra azure y desarrollos paralelos
-
-Computacion hibrida: para servicios hom premis y cloud
+- **Compute:** Computadoras virtuales/cntenedores de kubernetes
+- **Storage:** Almacenamiento de archivos
+  - Blob: para archivos binarios
+  - Quetes: colas de datos
+  - Files:  para archivos
+  - Disck: de espacio en disco
+- **Networking:** Todo lo relacionado a como se conecta uno a los servicio de azure, balanceadores de carga, ruteo, VPN Gatewaay, app Gateway
+- **Application plataform(Movile):** Para creacion de servicios de aplicaciones (API), escalado automatico, notificaciones, servicios de aplicaciones HTPL, etc
+- **Analitics y IoT:** Todo lo relacionado a hadware conectado a nube, tamb servicios de presentacion tipo Power Bi
+- **Data:** servicios de base de datos SQL, SQL server, dataWareHouse, cosmos DB, etc
+- **Servicios de desarrollo:** Todo lo relacionados a DevOps, IDs, Xamary, etc
+- **Intelligence:** servicios para IA, bot chats y servicios cognitivos, temas de Azure ML
+- **Seguridad Y manejo:** seguridad apra azure y desarrollos paralelos
+- **Computacion hibrida:** para servicios hom premis y cloud
 
 
 ![image](https://user-images.githubusercontent.com/6383659/233551308-91be0f43-915f-4509-b5ca-6d145abd7425.png)
 
+**Cuentas**
 
+Tipos de cuentas:
+ - De pago
+ - Gratuita
+ - De estudiante gratuita
 
-** Cuentas **
-
-Tipos de cuentas
-
- De pago
- Gratuita
- De estudiante gratuita
- 
  ![image](https://user-images.githubusercontent.com/6383659/233551490-d5c40df2-7088-43c7-af85-4124ab167d8c.png)
+
+ Nota: A los recursos es bueno agruparlos por "Grupos de recursos"
+
+## 4.Fundamentos de Azure <a name="intro_azure"></a>
+
+***Tipos de nube***
+
+- **Publica:** Es acecible para todos mediante internet, es ofrecida por un proveedor quien la gestiona
+  - Caracteristicas
+    - Se paga por lo q se usa
+    - Facil de escalar (en subidoa o baja de recursos)
+    - No se gasta (invercion) para poder ampliar (xq se paga x uso)
+- **Privada:** Solo acesible para poersonal de la empresa o personas autorizadas (server local o remoto), aceso controlado
+  - Caracteristicas
+    - Control total de la seguidad y recursos
+    - Requiere invercion incial
+    - Gestionada por la organizacion
+    - Resonsables del mantenimiento y actualizaciones
+- **Hibrida:** Es una mescla de las anteriores, datos y Apps se comparten
+  - Caracteristicas
+    - Mayor flexibilidd
+    - La organicacion tiene control sobre la gestion y temas legales
+    - Control sobre donde ejecutar las Apps
+
+Nota: Recorda SLA -> Acuerdos de nivel de servicios
+
+  ***Venrajas de Cloud de Azure***
+
+  1. **Alta disponibilidad:** Recursos siempre disponibles
+  2. **Escalabilidad:** Facil crecer vertical u horizotalmente
+  3. **Agilidad:** Rapida implementacion y configuracion de recursos
+  4. **Distribucion Geografica:** Permite Apps por regiones, mejora rendimiento(siempre optimas), eleccion del mejor nodo
+  5. **Recuoeracion ante fallos:** Respaldo de seguidad
+  6. **Flexibilidad:** Permite aprobicionar recursos segun la demanda justa de forma *automatica* (mejora costos y rendimiento)
+
+
+---- grafica
+
+  ***Tipos de gastos***
+
+**CapEx:** Gasto Capital
+- Se gasta x adelantado
+- Valor reducido en el tiempo
+- Coste inicial para la empresa
+
+**OpEx**: Gasto operativo
+- Sin coste inicial
+- Se paga por lo q se usa
+- Deduccion fiscal al final de año
+
+***Modelos de servicio en Nube***
+
+- **IaaS:** Infraestructura como servicio -> Se arquila hadware (Gestion manual de software y actualizacciones)
+- **PaaS:** Plataforma como servicio -> Se arquila una plataforma de desrrollo (solo nos preocupamos por el montaje de la App)
+- **SaaS:** Software como servicio -> Se arquila un sistema tal cual (Normalmente se usa una licencia, ejem Officce 365)
+
+
+--------------------------
+
+## 5.Componentes centrales de Azure <a name="intro_azure"></a>
+
+
+
+
+--------------------------
 
